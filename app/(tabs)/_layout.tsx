@@ -22,6 +22,7 @@ const _layout = () => {
         name="index"
         options={{
           tabBarLabel: "Explore",
+          headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="search" {...{ color, size }} />
           ),
